@@ -1,0 +1,1 @@
+index=windows EventCode=4698 | stats count by Task_Name, Author
