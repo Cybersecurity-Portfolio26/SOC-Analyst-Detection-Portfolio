@@ -15,3 +15,6 @@ This repository demonstrates hands-on Security Operations Center (SOC) experienc
 - MITRE ATT&CK technique mapping
 
 All investigations reflect real-world SOC workflows performed in a simulated enterprise environment.
+
+## Disclaimer
+All investigations are conducted in a simulated enterprise environment and do not involve real production or classified systems.
