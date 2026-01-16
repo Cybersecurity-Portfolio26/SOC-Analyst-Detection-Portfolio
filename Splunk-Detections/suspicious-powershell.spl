@@ -1,1 +1,4 @@
 # Suspicious Powershell SPL
+
+## Detects encoded PowerShell execution
+index=windows EventCode=4688 | search New_Process_Name="*powershell.exe*" | search CommandLine="*-enc*" OR CommandLine="*-EncodedCommand*"
