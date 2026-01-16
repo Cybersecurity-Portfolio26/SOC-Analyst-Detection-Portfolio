@@ -1,0 +1,1 @@
+index=windows EventCode=4688 | search New_Process_Name IN ("*certutil.exe*", "*bitsadmin.exe*", "*wmic.exe*")
