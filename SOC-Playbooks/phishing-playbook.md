@@ -72,3 +72,18 @@ Define procedures for identifying, analyzing, and responding to phishing email i
 - Initial Access: T1566 (Phishing)
 - Credential Access: T1056 (Input Capture)
 - Impact: T1499 (Endpoint Denial of Service - if malware delivered)
+
+---
+
+## Severity Levels
+- Low: Single user, no compromise
+- Medium: Multiple users targeted
+- High: Confirmed credential compromise or malware execution
+
+---
+
+## Escalation
+Escalate to Tier-2 if:
+- Malware persists after containment
+- Priveleged account impacted
+- Evidence of lateral movement
