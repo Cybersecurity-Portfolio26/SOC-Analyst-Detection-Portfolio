@@ -1,1 +1,4 @@
 # DNS Anomaly Detection SPL
+
+## Detects abnormal DNS queries consistent with tunneling.
+index=dns | eval query_length=len(query) | where query_length > 50 | stats count avg(query_length) by src_ip
