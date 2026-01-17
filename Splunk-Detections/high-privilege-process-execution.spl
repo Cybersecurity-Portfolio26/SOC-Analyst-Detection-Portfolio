@@ -1,0 +1,1 @@
+index=windows EventCode=4688 | search Integrity_Level="High"
