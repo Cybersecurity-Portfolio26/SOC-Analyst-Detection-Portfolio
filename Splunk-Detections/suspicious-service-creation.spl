@@ -1,0 +1,1 @@
+index=windows EventCode=4697 | stats count by Service_Name, Service_File_Name
