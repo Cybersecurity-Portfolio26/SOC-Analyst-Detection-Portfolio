@@ -109,6 +109,20 @@ This approach ensures transparency, traceability, and technical credibility.
 
 ---
 
+## SOC Lab Architecture
+This lab simulates a real-world Tier 1 Security Operations Center environment.
+
+Components include:
+- Windows endpoint log sources
+- Linux server with Wazuh agent
+- SIEM ingestion and alerting (Wazuh + Splunk)
+- Virtualized attack/defense environment
+- Anayst investigation workflow
+
+![SOC Lab Architecture](architecture/SOC_Lab_Architecture_Diagram.png)
+
+---
+
 ## Disclaimer
 This repository is for demonstration and educational purposes only. 
 All scenarios, data, and detections are simulated and do not reference any real organization,
