@@ -1,1 +1,25 @@
+Incident ID: SOC-2026-001
+Severity: Medium
+Category: Phishing / Initial Access
 
+Detection Source: SIEM Email Security Alert
+
+Summary:
+A suspicious email containing an RTF attachment was delivered to a corporate mailbox. Automated detection flagged the attachment hash as potentially malicious.
+
+Investigation Steps:
+1. Reviewed email headers for spoofing indicators.
+2. Extracted attachment hash.
+3. Queried hash in VirusTotal.
+4. Observed detection hits from multiple engines.
+5. Analyzed attachment behavior indicators (OLE object execution)
+
+MITRE ATT&CK Mapping
+1. T1566.001 - Phishing Attachment
+
+Conclusion Malicious phishing attempt confirmed.
+
+Response Actions
+1. Email quarantined
+2. User notified
+3. Hash added to block list
