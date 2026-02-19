@@ -119,7 +119,7 @@ Components include:
 - Virtualized attack/defense environment
 - Anayst investigation workflow
 
-![SOC Lab Architecture](architecture/SOC_Lab_Architecture_Diagram.png)
+![SOC Lab Architecture](Architecture/SOC_Lab_Architecture_Diagram.png)
 
 ---
 
